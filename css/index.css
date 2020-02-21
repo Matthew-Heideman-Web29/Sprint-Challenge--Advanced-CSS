@@ -167,6 +167,14 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.container img {
+  transition-property: transform;
+  transition-duration: 4s;
+  transition-timing-function: ease-in;
+}
+.container img:hover {
+  transform: rotateY(360deg);
+}
 .nav {
   display: flex;
   flex-direction: column;
