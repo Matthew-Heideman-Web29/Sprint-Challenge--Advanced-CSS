@@ -327,6 +327,65 @@ p {
   height: auto;
   border-radius: 10px;
 }
+.about .main-header-img {
+  border-radius: 10px;
+}
+.about h2 {
+  padding: 15px;
+}
+.about p {
+  padding: 0 15px;
+}
+.about .team {
+  display: flex;
+  flex-direction: column;
+}
+.about .team .astronauts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
+}
+.about .team .astronauts img {
+  width: 40%;
+  height: 50vh;
+  border-radius: 10px;
+}
+.about .form {
+  padding: 1%;
+  background-color: lightgrey;
+}
+.about .form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 5%;
+  margin-bottom: 20px;
+  border: solid 1px black;
+  background-color: white;
+}
+.about .form form .name {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.about .form form .name .first-name {
+  width: 30%;
+  height: 30px;
+  padding: 0;
+  border-radius: 8px;
+  border-style: none;
+  background-color: lightgrey;
+}
+.about .form form .name .last-name {
+  width: 30%;
+  height: 30px;
+  padding: 0;
+  border-radius: 8px;
+  border-style: none;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
